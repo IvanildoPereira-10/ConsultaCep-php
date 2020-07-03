@@ -1,0 +1,23 @@
+{
+    "name": "ivani/consulta-cep",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IvanildoPereira-10",
+            "email": "ivanildopereira@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "ivani\\consultaCep": "src/"
+        }
+    }
+}
